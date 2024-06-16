@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login</title>
+    <link rel="stylesheet" href="../css/estilologin.css">
+    <script src="../js/loginrec.js" defer></script> 
+    <link rel="stylesheet" href="../python/login.py">
+</head>
+<body>
+    <div class="login-container">
+        <h2>Login</h2>
+        <div id="mensaje" style="display: none; color: red;"></div>
+        <form id="loginForm">
+            <label for="username">Username:</label>
+            <input type="text" id="username" name="username" required>
+            <label for="password">Password:</label>
+            <input type="password" id="password" name="password" required>
+            <label for="role">Role:</label>
+            <select id="role" name="role" required>
+                <option value="">Seleccione un rol</option>
+                <option value="admin">Administrador</option>
+                <option value="rector">Rector</option>
+                <option value="docente">Docente</option>
+                <option value="estudiante">Estudiante</option>
+            </select>
+            <button type="submit">Login</button>
+        </form>
+    </div>
+</body>
+</html>

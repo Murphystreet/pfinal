@@ -1,0 +1,118 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh; /* Establece el tamaño mínimo de la página para ocupar toda la pantalla visible */
+}
+
+header {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 10px 0;
+}
+
+.actividades {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+}
+.back-button {
+    position: initial;
+    bottom: 20px;
+    right: 20px;
+    background-color: #28a745;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 10px 0;
+    margin-top: auto; /* Mantiene el pie de página al final de la página */
+    width: 100%;
+}
+
+/* Estilo para el contenedor de botones */
+.buttons {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 20px;
+}
+
+.buttons button {
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+#crearActividadBtn {
+    background-color: #007bff;
+    color: white;
+}
+
+#crearActividadBtn:hover {
+    background-color: #0056b3;
+}
+
+#registroGradoBtn {
+    background-color: #28a745;
+    color: white;
+}
+
+#registroGradoBtn:hover {
+    background-color: #218838;
+}
+
+/* Estilo para el formulario */
+form {
+    background-color: #f9f9f9;
+    padding: 20px;
+    border-radius: 10px;
+    margin-top: 20px;
+}
+
+form label {
+    display: block;
+    margin-bottom: 5px;
+}
+
+form input[type="text"] {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+}
+
+form button[type="submit"] {
+    background-color: #007bff;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+form button[type="submit"]:hover {
+    background-color: #0056b3;
+}
+
+/* Clase para ocultar elementos */
+.hidden {
+    display: none;
+}
+
+/* Estilo para el calendario */
+#calendario {
+    margin-top: 20px;
+}
